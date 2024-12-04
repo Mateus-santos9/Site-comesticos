@@ -1,0 +1,626 @@
+/*Formatação para a página*/
+body{
+    background-color: green;
+}
+/*Formatção para o titulo principal da página*/
+.titulo-principal{
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da lettra*/
+    text-align: center;/*Alinhamento*/
+}
+
+/*Formatação para a barra principal*/
+.barra-principal{
+    width: 100%; /*Ocupar 100% da largura da tela*/
+    height: 80px; /*Altura de 80px*/
+    background-color: white;/*Cor*/;
+    display: flex;
+    border-radius: 9px;/*Bordas arrendodadas*/
+}
+
+/*Formatação para o que for a na barrra princiapl*/
+.barra-principal a{
+    color: black; /*Cor da fonte*/ 
+    text-decoration: none;/*Não ter decoração no texto*/
+    font-family: Arial, sans-serif;/*Tipo de fonte*/
+    padding: 30px; /*Distância entre os elementos*/
+}
+
+/*Formatação para a sobra do que for a no menu principal*/
+.barra-principal a:hover{
+    background-color: rgb(139, 139, 145);/*Cor da sombra*/
+    padding: 30px; /*Distãncia entre a sombra e os elementos*/
+    border-radius: 9px; /*Bordas arrendodadas*/
+}
+/*Formatação para o titulo produtos*/
+.titulo-produtos{
+    color: white;
+}
+/*Formatação para a logo aveeno*/
+.logo-aveeno{
+    width: 250px;/*Altura da imagem*/
+    height: auto;/*Proporção*/
+    border-radius: 11px;/*Bordas arredondadas*/
+    top: 95px;/*Posição top*/
+    position: absolute;/*Pode movimentar a imagem livremente*/
+}
+/*Formatação para a logo cerave*/
+.logo-cerave{
+    width: 250px;/*Altura da imagem*/
+    height: auto;/*Proporção*/
+    position: absolute;/*Pode movimentar livremente*/
+    top: 191px;/*Posição top*/
+    left: 300px;/*Posição esquerda*/
+    border-radius: 9px;/*bordas arredondadas*/
+}
+/*Formatação para a logo oboticario*/
+.logo-oboticario{
+    position: absolute;/*pode movimentar livremente*/
+    width: 190px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 190px;/*Posição topo*/
+    left: 600px;/*Posição esquerda*/
+    border-radius: 9px;/*Bordas arredondadas*/
+}
+/*Formatação para a logo larocheposay*/
+.Logo-larocheposay{
+    position: absolute;/*pode movimentar livremente*/
+    width: 270px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 191px;/*Posição top*/
+    left: 850px;/*Posição esquerda*/
+    border-radius: 9px;/*Bordas arredondadas*/
+}
+/*Formataçã para a logo mantecorp*/
+.logo-mantecorp{
+    position: absolute;/*Pode movimentar livremente*/
+    width: 140px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 190px;/*Posição top*/
+    left: 1175px;/*Posição esquerda*/
+    border-radius: 9px;/*Bordas arredondadas*/
+}
+/*Formatação para a logo gernier*/
+.Garnier-Logo{
+    position: absolute;/*Pode movimentar livremente*/
+    width: 150px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 350px;/*Posição top*/
+    border-radius: 9px;/*Bordas arredondadas*/
+}
+/*Formatação para a logo nivea*/
+.Nivea-logo{
+    border-radius: 15px;
+    position: absolute;/*Pode movimentar livremente*/
+    width: 310px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 340px;/*Posição top*/
+    left: 200px;/*Posção esquerda*/
+}
+.Logo-monange{
+    position: absolute;/*Pode movimentar livremente*/
+    width: 150px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 350px;/*Posição top*/
+    left: 555px;/*Posição esquerda*/
+    border-radius: 9px;/*Bordas arredondadas*/
+}
+/*Formatação para a logo natura*/
+.logo-natura{
+    position: absolute;/*Pode movimentar livremente*/
+    width: 250px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 355px;/*Posição top*/
+    left: 750px;/*Posição esquerda*/
+    border-radius: 9px;/*Bordas arredondadas*/
+}
+/*Formatação para a logo skinceuticals*/
+.skinceuticals-logo{
+    position: absolute;/*Pode movimentar livremente*/
+    width: 150px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 350px;/*Posição top*/
+    left: 1050px;/*Posição esquerda*/
+    border-radius: 9px;/*Bordas arredondadas*/
+}
+/*Formatação para o texto da página principal*/
+.texto-pagina{
+    position: absolute;/*Pode movimenta a div*/
+    top: 500px;/*Altura*/
+    text-align: justify;/*Alinhamento do texto*/
+    color: white;/*Cor da font*/
+    font-family: Arial, sans-serif;/*Fonte*/
+}
+/*Fortação para o produto aveeno no js*/
+.logo-aveeno-js{
+    position: absolute;/*Pode movimentar livremente*/
+    top: 190px;
+    width: 200px;
+    height: auto;/*Proporção*/
+}
+/*Formatação para o preço do produto aveeno*/
+.preco-aveeno{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+    font-size: 25px;/*Tamanho da fonte*/
+}
+/*Formatação para o texto do produto aveeno*/
+.texto-produto-aveeno{
+    position: absolute;/*Pode movimentar livremnete*/
+    width: 50%;/*Largura*/
+    text-align: justify;/*Texto justificado*/
+    top: 330px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+}
+/*Formataçã para o botão de integração com o whats no produto aveeno*/
+.botão-whats-aveeno{
+    position: absolute;/*Pode movimentar livremente*/
+    top: 425px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+}
+/*Formatação para o nome do produto aveeno*/
+.nome-produto-aveeno{
+    position: absolute;/*Pode movimentar livremente*/
+    font-family: Arial, sans-serif;
+    color: white;
+    left: 220px;
+    top: 250px;
+    font-size: 50px;
+}
+.logo-Cerave-js{
+    position: absolute;/*Pode movimentar livremente*/
+    width: 200px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 525px;
+}
+/*Formatação para o texto do produto cerave*/
+.texto-produto-cerave{
+    position: absolute;/*Pode movimentar livremnete*/
+    width: 50%;/*Largura*/
+    text-align: justify;/*Texto justificado*/
+    top: 550px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+}
+/*Formatação para o preço do produto cerave*/
+.preco-produto-cerave{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+    font-size: 25px;/*Tamanho da fonte*/
+    top: 489px;/*Altura*/
+}
+/*Formatação para o botão de integração com whats do produto cerave*/
+.botão-whats-cerave{
+    position: absolute;/*Pode movimentar livremente*/
+    top: 658px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+}
+/*Formatação para a logo do produto oboticario*/
+.logo-Cuide-js{
+    position: absolute;/*Para pode movimentar livremente*/
+    width: 202px;/*altura*/
+    height: auto;/*Proporção*/
+    top: 759px;/*Altura top*/
+}
+/*Formatação para o preço do produto oboticario*/
+.preco-produto-oboticario{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+    font-size: 25px;/*Tamanho da fonte*/
+    top: 735px;/*Altura*/
+}
+/*Formatação para o texto do produto oboticario*/
+.texto-produto-oboticario{
+    position: absolute;/*Pode movimentar livremnete*/
+    width: 50%;/*Largura*/
+    text-align: justify;/*Texto justificado*/
+    top: 805px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+}
+/*Formatação para o botão de integração com whats do produto oboticario*/
+.botão-whats-oboticario{
+    position: absolute;/*Pode movimentar livremente*/
+    top: 900px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+}
+/*Formatação para o produto effaclar*/
+.logo-Effaclar-js{
+    position: absolute;/*Pode mocimentar livremente*/
+    width: 200px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 1000px;/*Posição top*/
+}
+/*Formatação para o preço do produto effaclar*/
+.preco-produto-Effaclar{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+    font-size: 25px;/*Tamanho da fonte*/
+    top: 980px;/*Altura*/
+}
+/*Formatação para o nome do produto effaclar*/
+.nome-produto-effaclar{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 225px;/*Posição esquerda*/
+    top: 1059px;/*Posição top*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+    font-size: 30px;/*Tamanho da fonte*/
+}
+/*Formatação para o texto do produto effaclar*/
+.texto-produto-Effaclar{
+    position: absolute;/*Pode movimentar livremnete*/
+    width: 50%;/*Largura*/
+    text-align: justify;/*Texto justificado*/
+    top: 1080px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+}
+/*Formatação para o botão de integração com o whats do produto effaclar*/
+.botão-whats-effaclar{
+    position: absolute;/*Pode movimentar livremente*/
+    top: 1189px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+}
+/*Formatação para o produto epitrate*/
+.logo-Epitrate-js{
+    position: absolute;/*Pode mocimentar livremente*/
+    width: 200px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 1289px;/*Posição top*/
+}
+/*Formatação para a logo do produto epitrate*/
+.preco-produto-epitrate{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+    font-size: 25px;/*Tamanho da fonte*/
+    top: 1270px;/*Altura*/
+}
+/*Formatação para o texto do produto epitrate*/
+.texto-produto-epitrate{
+    position: absolute;/*Pode movimentar livremnete*/
+    width: 50%;/*Largura*/
+    text-align: justify;/*Texto justificado*/
+    top: 1325px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+}
+/*Formatação do botão de integração com o whats produto epitrate*/
+.botão-whats-epitrate{
+    position: absolute;/*Pode movimentar livremente*/
+    top: 1425px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+}
+/*Formatação para o produto garnier*/
+.logo-Garnier-js{
+    position: absolute;/*Pode mocimentar livremente*/
+    width: 200px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 1520px;/*Posição top*/
+}
+/*Formatação para o produto garnier*/
+.preco-produto-garnier{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+    font-size: 25px;/*Tamanho da fonte*/
+    top: 1500px;/*Altura*/
+}
+/*Formatação para o texto do produto garnier*/
+.texto-produto-garnier{
+    position: absolute;/*Pode movimentar livremnete*/
+    width: 50%;/*Largura*/
+    text-align: justify;/*Texto justificado*/
+    top: 1570px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+}
+/*Formatação para o botão de integração com o whats produto garnier*/
+.botão-whats-garnier{
+    position: absolute;/*Pode movimentar livremente*/
+    top: 1658px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+}
+/* Formatação para o produto hidratante labial*/
+.logo-Hidratante-labial-js{
+    position: absolute;/*Pode mocimentar livremente*/
+    width: 200px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 1750px;/*Posição top*/
+}
+/*Formatação para o preço do produto hidratante labial*/
+.preco-produto-hidratante-labial{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+    font-size: 25px;/*Tamanho da fonte*/
+    top: 1750px;/*Altura*/
+}
+/*Formatação para o nome do produto hidratante labial*/
+.nome-hidratante-labial{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 220px;/*Posição esquerda*/
+    top: 1790px;/*Posição top*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+    font-size: 30px;/*Tamanho da fonte*/
+}
+/*Formatação para o texto do produto hidratante labial*/
+.texto-hidratante-labial{
+    position: absolute;/*Pode movimentar livremnete*/
+    width: 50%;/*Largura*/
+    text-align: justify;/*Texto justificado*/
+    top: 1870px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+}
+/*Formatação para o botão de integração com whats produto hidratante labial*/
+.botão-hidratante-labial{
+    position: absolute;/*Pode movimentar livremente*/
+    top: 2009px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+}
+/*Formatação para o produto monange*/
+.logo-Monange-js{
+    position: absolute;/*Pode mocimentar livremente*/
+    width: 200px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 2100px;/*Posição top*/
+}
+/*Formatação para a logo do produto monange*/
+.preco-produto-monange{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+    font-size: 25px;/*Tamanho da fonte*/
+    top: 2075px;/*Altura*/
+}
+/*Formatação para o texto do produto monange*/
+.texto-produto-monange{
+    position: absolute;/*Pode movimentar livremnete*/
+    width: 50%;/*Largura*/
+    text-align: justify;/*Texto justificado*/
+    top: 2150px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+}
+/*Formatação para o botão de integração com o whats produto monange*/
+.botão-whats-monange{
+    position: absolute;/*Pode movimentar livremente*/
+    top: 2239px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+}
+/*Formatação para o produto neutrogena*/
+.logo-Neutrogena-labial-js{
+    position: absolute;/*Pode movimentar livremente*/
+    width: 200px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 2330px;/*Posição top*/
+}
+/*Formatação para o preço do produto neutrogena*/
+.preco-produto-neutrogena{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+    font-size: 25px;/*Tamanho da fonte*/
+    top: 2300px;/*Altura*/
+}
+/*Formatação para o texto do produto nautrogena*/
+.texto-produto-neutrogena{
+    position: absolute;/*Pode movimentar livremnete*/
+    width: 50%;/*Largura*/
+    text-align: justify;/*Texto justificado*/
+    top: 2355px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+}
+/*Formatação para o botão de integração com o whats produto neutrogena*/
+.botão-whats-neutrogena{
+    position: absolute;/*Pode movimentar livremente*/
+    top: 2459px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+}
+/*Formação para o produto nivea*/
+.logo-Nivea-js{
+    position: absolute;/*Pode mocimentar livremente*/
+    width: 200px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 2570px;/*Posição top*/
+}
+/*Formatação para o preço do produto nivea*/
+.preco-produto-nivea{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+    font-size: 25px;/*Tamanho da fonte*/
+    top: 2550px;/*Altura*/
+}
+/*Formatação para o texto do produto nivea*/
+.texto-produto-nivea{
+    position: absolute;/*Pode movimentar livremnete*/
+    width: 50%;/*Largura*/
+    text-align: justify;/*Texto justificado*/
+    top: 2615px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+}
+/*Formatação para o botão de integração com o whats produto nivea*/
+.botão-whats-nivea{
+    position: absolute;/*Pode movimentar livremente*/
+    top: 2710px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+}
+/*Formatação para o produto olay*/
+.logo-Olay-js{
+    position: absolute;/*Pode mocimentar livremente*/
+    width: 200px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 2805px;/*Posição top*/ 
+}
+/*Formatação para o preço do produto olay*/
+.preco-produto-olay{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+    font-size: 25px;/*Tamanho da fonte*/
+    top: 2780px;/*Altura*/
+}/*Formatação para o texto do produto olay*/
+.texto-produto-olay{
+    position: absolute;/*Pode movimentar livremnete*/
+    width: 50%;/*Largura*/
+    text-align: justify;/*Texto justificado*/
+    top: 2850px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+}
+/*Formatação para o produto de integração com whats produto olay*/
+.botão-whats-olay{
+    position: absolute;/*Pode movimentar livremente*/
+    top: 2941px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+}
+/*Formatação para o produto ponds*/
+.logo-Ponds-js{
+    position: absolute;/*Pode mocimentar livremente*/
+    width: 200px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 3050px;/*Posição top*/ 
+}
+/*Formatação para o preço do produto ponds*/
+.preco-produto-ponds{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+    font-size: 25px;/*Tamanho da fonte*/
+    top: 3025px;/*Altura*/
+}
+/*Formatação para o texto do porduto ponds*/
+.texto-produto-ponds{
+    position: absolute;/*Pode movimentar livremnete*/
+    width: 50%;/*Largura*/
+    text-align: justify;/*Texto justificado*/
+    top: 3090px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+}
+/*Formatação para o botão de integração com o whats produto ponds*/
+.botão-whats-ponds{
+    position: absolute;/*Pode movimentar livremente*/
+    top: 3195px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+}
+/*Formatação para o produto soft*/
+.logo-Soft-js{
+    position: absolute;/*Pode mocimentar livremente*/
+    width: 200px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 3300px;/*Posição top*/ 
+}
+/*Formatação para o preço do produto soft*/
+.preco-produto-soft{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+    font-size: 25px;/*Tamanho da fonte*/
+    top: 3275px;/*Altura*/
+}
+/*Formatação para o texto do produto soft*/
+.texto-produto-soft{
+    position: absolute;/*Pode movimentar livremnete*/
+    width: 50%;/*Largura*/
+    text-align: justify;/*Texto justificado*/
+    top: 3340px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+}
+/*Formatação para o botão de integração com o whats produto soft*/
+.botão-whats-soft{
+    position: absolute;/*Pode movimentar livremente*/
+    top: 3437px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+}
+/*Formatação para o produto soft-milk*/
+.logo-Soft-milk-js{
+    position: absolute;/*Pode mocimentar livremente*/
+    width: 200px;/*Altura*/
+    height: auto;/*Proporção*/
+    top: 3535px;/*Posição top*/ 
+}
+/*Formatação para o preço do produto soft milk*/
+.preco-soft-milk{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+    font-size: 25px;/*Tamanho da fonte*/
+    top: 3500px;/*Altura*/
+}
+/*Formatação para o texto do produto soft milk*/
+.texto-soft-milk{
+    position: absolute;/*Pode movimentar livremnete*/
+    width: 50%;/*Largura*/
+    text-align: justify;/*Texto justificado*/
+    top: 3560px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+    font-family: Arial, sans-serif;/*Fonte*/
+    color: white;/*Cor da fonte*/
+}
+/*Formatação para o botão de integração com o whats produto soft milk*/
+.botão-soft-milk{
+    position: absolute;/*Pode movimentar livremente*/
+    top: 3670px;/*Posição top*/
+    left: 220px;/*Posição esquerda*/
+}
+/*Formatação para o título de contatos*/
+.titulo-contatos{
+    color: white;
+}
+/*Formatação para o texto de contatos*/
+.texto-contato{
+    color: white;
+}
+/*Formatação para a logo do whats*/
+.Logo-whatsapp{
+    position: absolute;/*Pode movimentar livremente*/
+    width: 65px;/*Altura*/
+    height: auto;/*Proporção*/
+}
+.botão-whats-contato{
+    position: absolute;/*Pode movimentar livremente*/
+    left: 85px;/*Posição esquerda*/
+    
+    
+}
+
